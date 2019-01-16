@@ -93,6 +93,8 @@ screenshot:
 
 <img src="/FinalProject/GCE-server-gradle-tasks.png" height="500">
 
+<img src="/FinalProject/blob/master/FinalProject/Free_version_with_ads.jpg" height="500">
+
 Once your local GCE server is started you should see the following at 
 [localhost:8080](http://localhost:8080)
 
