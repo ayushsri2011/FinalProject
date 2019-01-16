@@ -148,11 +148,11 @@ To tie it all together, create a Gradle task that:
 
 Below are the attached screenshots-
 
-Free Version
+## Free Version
      
 <img src="/FinalProject/Free_version_with_ads.jpg" height="500">
 
-Paid Version
+## Paid Version
       
 <img src="/FinalProject/Paid_version_ads_free.jpg" height="500">
       
