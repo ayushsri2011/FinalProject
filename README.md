@@ -77,20 +77,17 @@ the Setup Cloud SDK.
 
 Start or stop your local server by using the gradle tasks appEngineStart and appEngineStop
 
-Once your local GCE server is started you should see the following at 
+Once your local GCE server is started, check in browser at location-
 [localhost:8080](http://localhost:8080)
 
-<img src="https://raw.githubusercontent.com/GoogleCloudPlatform/gradle-appengine-templates/77e9910911d5412e5efede5fa681ec105a0f02ad/doc/img/devappserver-endpoints.png">
 
 Now you are ready to continue! 
 
-Introduce a project dependency between your Java library 
+1. Introduce a project dependency between your Java library 
 and your GCE module, and modify the GCE starter code to pull jokes from your Java library. 
-Create an AsyncTask to retrieve jokes using the template included int these 
+2. Create an AsyncTask to retrieve jokes using the template included int these 
 [instructions](https://github.com/GoogleCloudPlatform/gradle-appengine-templates/tree/77e9910911d5412e5efede5fa681ec105a0f02ad/HelloEndpoints#2-connecting-your-android-app-to-the-backend). 
-Make the button kick off a task to retrieve a joke, 
-then launch the activity from your Android Library to display it.
-
+3. Make the button kick off a task to retrieve a joke, then launch the activity from your Android Library to display it.
 
 ### Step 4: Add Functional Tests
 
@@ -109,17 +106,11 @@ For extra practice to make your project stand out, complete the following tasks.
 ### Add Interstitial Ad
 
 Follow these instructions to add an interstitial ad to the free version.
-Display the ad after the user hits the button, but before the joke is shown.
-
-https://developers.google.com/mobile-ads-sdk/docs/admob/android/interstitial
 
 ### Add Loading Indicator
 
 Add a loading indicator that is shown while the joke is being retrieved and
-disappears when the joke is ready. The following tutorial is a good place to
-start:
-
-http://www.tutorialspoint.com/android/android_loading_spinner.htm
+disappears when the joke is ready. 
 
 ### Configure Test Task
 
