@@ -154,5 +154,7 @@ Below are the attached screenshots-
 
 ## Paid Version
       
-<img src="/FinalProject/Paid_version_ads_free.jpg" height="500">
+<img src="/FinalProject/Paid_version_ads_free.jpg.jpg" height="500">
+      
+        
       
