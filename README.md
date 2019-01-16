@@ -1,11 +1,8 @@
 # Gradle for Android and Java Final Project
 
-In this project, we will create an app with multiple flavors that uses
-multiple libraries and Google Cloud Endpoints. The finished app will consist
-of four modules. A Java library that provides jokes, a Google Cloud Endpoints
-(GCE) project that serves those jokes, an Android Library containing an
-activity for displaying jokes, and an Android app that fetches jokes from the
-GCE module and passes them to the Android Library for display.
+(Made as part of Android Nanodegree 2 project)
+
+In this project, we will create an app with multiple flavors that uses multiple libraries and Google Cloud Endpoints. The finished app will consist of four modules. A Java library that provides jokes, a Google Cloud Endpoints (GCE) project that serves those jokes, an Android Library containing an activity for displaying jokes, and an Android app that fetches jokes from the GCE module and passes them to the Android Library for display.
 
 ## Why this Project
 
@@ -25,6 +22,16 @@ Role of Gradle in building Android Apps and how to use Gradle to manage apps of 
 * Use the Gradle App Engine plugin to deploy a backend
 * Configure an integration test suite that runs against the local App Engine development server
 
+Below are the attached screenshots of finished app-
+
+## Free Version
+     
+<img src="/FinalProject/Free_version_with_ads.jpg" height="500">
+
+## Paid Version
+      
+<img src="/FinalProject/Paid_version_ads_free.jpg" height="500">
+      
 ## Steps-
 
 ### Step 0: Starting Point
@@ -137,15 +144,6 @@ To tie it all together, create a Gradle task that:
 
 ### Finished App
 
-Below are the attached screenshots-
 
-## Free Version
-     
-<img src="/FinalProject/Free_version_with_ads.jpg" height="500">
-
-## Paid Version
-      
-<img src="/FinalProject/Paid_version_ads_free.jpg" height="500">
-      
         
       
