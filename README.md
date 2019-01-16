@@ -140,10 +140,3 @@ To tie it all together, create a Gradle task that:
 ### Required Behavior
 
 * App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library.
-
-
-### Finished App
-
-
-        
-      
